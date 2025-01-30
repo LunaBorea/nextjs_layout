@@ -20,7 +20,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Navbar */
 ul {
+  position: fixed;
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -42,4 +46,21 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #111;
+}
+/* --- */
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+/* --- */
+
+.contact, .about {
+  padding-top: 3rem;
 }
