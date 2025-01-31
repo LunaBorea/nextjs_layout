@@ -61,6 +61,6 @@ li a:hover:not(.active) {
 }
 /* --- */
 
-.contact, .about {
+.contact, .about, .home {
   padding-top: 3rem;
 }
